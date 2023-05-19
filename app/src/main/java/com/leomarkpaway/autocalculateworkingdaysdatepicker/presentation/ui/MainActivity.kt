@@ -1,7 +1,8 @@
-package com.leomarkpaway.autocalculateworkingdaysdatepicker
+package com.leomarkpaway.autocalculateworkingdaysdatepicker.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.leomarkpaway.autocalculateworkingdaysdatepicker.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
