@@ -1,0 +1,40 @@
+ext {
+
+    // Hilt for dependency injection
+    hilt_version = "2.44.2"
+
+    hilt = [
+            plugin: "com.google.dagger:hilt-android-gradle-plugin:$hilt_version",
+            android    : "com.google.dagger:hilt-android:$hilt_version",
+            compiler: "com.google.dagger:hilt-android-compiler:$hilt_version"
+    ]
+
+    // Flow for reactive programming
+    coroutines_version = "1.5.0"
+
+    coroutines = [
+            coroutines_android: "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version",
+            coroutines_core   : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    ]
+
+    // Lifecycle
+    lifecycle_version = "2.4.1"
+
+    lifecycle = [
+            runtime               : "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version",
+            compiler              : "androidx.lifecycle:lifecycle-compiler:$lifecycle_version",
+            view_model            : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version",
+            view_model_compose    : "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version",
+            view_model_saved_state: "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+    ]
+
+    // Navigation Component for in-app navigation
+    navigation_version = "2.5.3"
+
+    navigation = [
+            fragment: "androidx.navigation:navigation-fragment-ktx:$navigation_version",
+            ui      : "androidx.navigation:navigation-ui-ktx:$navigation_version",
+            safe_args: "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation_version"
+    ]
+
+}
