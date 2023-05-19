@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 object DatePickerHelper {
-    
+
     fun calculateWorkingDays(startStringDate: String, endStringDate: String) : Int {
         try {
             val startDate = getDateFromButton(startStringDate)
